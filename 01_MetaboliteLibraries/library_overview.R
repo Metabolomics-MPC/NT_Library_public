@@ -82,7 +82,8 @@ classyfi <- function(x) {
 # ==============================================================================
 # read data
 # ==============================================================================
-# read Sigma libaries ----------------------------------------------------------
+# read individual libraries ----------------------------------------------------
+# Sigma libraries
 aapmls <- read_tsv("01_MetaboliteLibraries/20241218_AAPMLS.tsv")
 bacsmls <- read_tsv("01_MetaboliteLibraries/20241218_BACSMLS.tsv")
 famls <- read_tsv("01_MetaboliteLibraries/20241218_FAMLS.tsv")
@@ -91,13 +92,13 @@ msmls <- read_tsv("01_MetaboliteLibraries/20241218_MSMLS.tsv")
 oamls <- read_tsv("01_MetaboliteLibraries/20241218_OAMLS.tsv")
 phytomls <- read_tsv("01_MetaboliteLibraries/20241218_PHYTOMLS.tsv")
 
-# read Agilent pesticide library -----------------------------------------------
+# Agilent Pesticide library
 pest <- read_tsv("01_MetaboliteLibraries/20241218_AgilentPesticide.tsv")
 
-# read MetaSci library ---------------------------------------------------------
+# MetaSci library
 metasci <- read_tsv("01_MetaboliteLibraries/20241218_MetaSci.tsv")
 
-# read BileOmix library --------------------------------------------------------
+# BileOmix library
 bileomix <- read_tsv("01_MetaboliteLibraries/20241218_BileOMix.tsv")
 
 # ==============================================================================
